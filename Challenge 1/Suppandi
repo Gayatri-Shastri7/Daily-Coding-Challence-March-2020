@@ -1,1 +1,28 @@
 
+t=int(input())
+n=input()
+s1=int(input())
+s2=int(input())
+for n in range(t):
+    
+    if(n=="triangle"):
+        a=(s1*s2)
+        print(a,end=" ")
+        print()
+    
+    elif(n=="rectangle"):
+        a=(s1*s1)
+        print(a,end=" ")
+        print()
+    
+    elif(n=="square"):
+        a=(s1*s2)/2
+        print(a,end=" ")
+        print()
+   
+    else:
+        print('0',end=" ")
+        print() 
+    
+ 
+
